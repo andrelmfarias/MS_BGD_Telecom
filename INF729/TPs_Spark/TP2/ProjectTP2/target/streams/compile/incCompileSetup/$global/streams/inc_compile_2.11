@@ -1,0 +1,646 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.11
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+34 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$anonfun$Udf_country$1$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$anonfun$Udf_currency$1$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator1$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator2$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator3$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator4$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator5$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Trainer$.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Trainer.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$10.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$11.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$12.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$13.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$14.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$15.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$2.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$3.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$4.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$5.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$6.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$7.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$8.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$9.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$main$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator11$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator15$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator19$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator3$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator7$1.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$.class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount.class
+binary dependencies:
+17 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.2.15.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /Users/andre.farias/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.11.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> /Users/andre.farias/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> /Users/andre.farias/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.11.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+34 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$anonfun$Udf_country$1$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$anonfun$Udf_currency$1$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$typecreator1$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$typecreator2$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$typecreator3$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$typecreator4$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com.sparkProject.Preprocessor$$typecreator5$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> com.sparkProject.Trainer
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> com.sparkProject.Trainer$
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$10
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$11
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$12
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$13
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$14
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$15
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$3
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$4
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$5
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$6
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$7
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$8
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$9
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$anonfun$main$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$typecreator11$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$typecreator15$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$typecreator19$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$typecreator3$1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com.sparkProject.WordCount$$typecreator7$1
+used names:
+371 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> !=
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $m
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $m$untyped
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $typecreator1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $typecreator2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $typecreator3
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $typecreator4
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $typecreator5
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> $u
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> &&
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> -
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ->
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> /
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> <
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> <init>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> <repeated>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ==
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ===
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> >=
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ?0
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> A
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> A1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> A2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Any
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> AnyRef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Array
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ArrayOps
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ArrowAssoc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> B
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Boolean
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ClassLoader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Column
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ColumnName
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> DataFrame
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> DataFrameNaFunctions
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> DataFrameReader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> DataFrameWriter
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> DataType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Dataset
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> False
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Function1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Function2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Int
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> IntegerType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Internal
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> JavaUniverse
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> List
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Long
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Map
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Mirror
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ModuleSymbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Nil
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Nothing
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Object
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Predef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Preprocessor
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> RT
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ReificationSupportApi
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> RelationalGroupedDataset
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Row
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> SingleType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Singleton
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> SparkConf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> SparkSession
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> String
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> StringContext
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> StringToColumn
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Symbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> T
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> T0
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ThisType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Traversable
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Tuple2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Type
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> TypeCreator
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> TypeRef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> TypeSymbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> TypeTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> U
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Udf_country
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Udf_currency
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Unit
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> Universe
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> UserDefinedFunction
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> apache
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> appName
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> apply
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> asInstanceOf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> asModule
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> cast
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> columns
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> com
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> concat
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> conf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> config
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> count
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> country
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> currency
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> datediff
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> desc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> describe
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df3
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df4
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df5
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df6
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df7
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> df_int
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> dmg
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> drop
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> fill
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> filter
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> format
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> from_unixtime
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> functions
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> getClass
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> getClassLoader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> getOrCreate
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> groupBy
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> immutable
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> implicits
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> internal
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> length
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> lit
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> load
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> materializeTypeTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> moduleClass
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> na
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> option
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> orderBy
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> org
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> package
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> parquet
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> pmml
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> printSchema
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> println
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> read
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> refArrayOps
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> reflect
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> reificationSupport
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> round
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> runtime
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> runtimeMirror
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> s
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> scala
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> select
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> selectType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> setAll
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> show
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> size
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> spark
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> sparkProject
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> sql
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> staticModule
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> staticPackage
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> types
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> udf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> universe
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> withColumn
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> write
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> ||
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> ->
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> <init>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> <repeated>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> A
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Any
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> AnyRef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Array
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> ArrowAssoc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> B
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Map
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Nothing
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Object
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Predef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> SparkConf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> SparkSession
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> String
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Trainer
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Traversable
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Tuple2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> Unit
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> apache
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> appName
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> apply
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> com
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> conf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> config
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> getOrCreate
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> org
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> package
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> println
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> scala
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> setAll
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> spark
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> sparkProject
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> sql
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $m
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $m$untyped
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $typecreator11
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $typecreator15
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $typecreator19
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $typecreator3
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $typecreator7
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> $u
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> +
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ->
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> <init>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> <repeated>
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ?0
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> A
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Any
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> AnyRef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Array
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ArrayOps
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ArrowAssoc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> B
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Boolean
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Class
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ClassLoader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ClassSymbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ClassTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Column
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ColumnName
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> DataFrame
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> DataFrameReader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Dataset
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> DatasetHolder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Encoder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Function1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Function2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Int
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Internal
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> JavaUniverse
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> K
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> List
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Map
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> MatchError
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Mirror
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ModuleSymbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Nil
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Nothing
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Object
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Ordering
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> PairRDDFunctions
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Predef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Product
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> RDD
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ReificationSupportApi
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> RelationalGroupedDataset
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Row
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> SingleType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Singleton
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> SparkConf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> SparkContext
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> SparkSession
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> String
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> StringContext
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> StringToColumn
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Symbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> T
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> T0
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> T1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> T2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ThisType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Traversable
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> TraversableOnce
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Tuple2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Type
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> TypeCreator
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> TypeRef
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> TypeSymbol
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> TypeTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> U
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Unit
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> Universe
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> V
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> WordCount
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> _$7
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> _1
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> _2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> agg
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> apache
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> appName
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> apply
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> as
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> asInstanceOf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> asModule
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> asType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> builder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> collection
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> com
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> conf
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> config
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> count
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> desc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df2
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_grouped
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_lower
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_wordCount
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_wordCount_light
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_wordCount_lighter
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> df_wordCount_lightest
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> explode
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> flatMap
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> foreach
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> functions
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> getClass
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> getClassLoader
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> getOrCreate
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> groupBy
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> i
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> immutable
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> implicits
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> internal
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> j
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> line
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> lower
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> map
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> materializeClassTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> materializeTypeTag
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> math
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> moduleClass
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> ne
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> newProductEncoder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> orderBy
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> org
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> package
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> println
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> rdd
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> rddToDatasetHolder
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> rddToPairRDDFunctions
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> read
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> reduceByKey
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> refArrayOps
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> reflect
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> reificationSupport
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> runtime
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> runtimeMirror
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> sc
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> scala
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> select
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> selectType
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> setAll
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> show
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> spark
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> sparkContext
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> sparkProject
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> split
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> sql
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> staticClass
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> staticModule
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> staticPackage
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> sum
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> take
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> text
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> textFile
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> toDF
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> toTypeConstructor
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> universe
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> withColumn
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> word
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> wordCount
+product stamps:
+34 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$anonfun$Udf_country$1$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$anonfun$Udf_currency$1$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator1$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator2$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator3$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator4$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$$typecreator5$1.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor$.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Preprocessor.class -> lastModified(1538929653000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Trainer$.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/Trainer.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$10.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$11.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$12.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$13.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$14.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$15.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$2.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$3.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$4.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$5.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$6.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$7.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$8.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$9.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$anonfun$main$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator11$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator15$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator19$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator3$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$$typecreator7$1.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount$.class -> lastModified(1538427112000)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/target/scala-2.11/classes/com/sparkProject/WordCount.class -> lastModified(1538427112000)
+source stamps:
+3 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> hash(fe87db762f0f3d098fae2a04881bbacc9ef08e87)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> hash(cfa52e77c52323a1013abc57e48346f784d07229)
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> hash(919746e529413019e29e713001e397f46b673171)
+binary stamps:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1530951661000)
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar -> lastModified(1498869487000)
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar -> lastModified(1498869279000)
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar -> lastModified(1498869654000)
+/Users/andre.farias/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.2.15.jar -> lastModified(1463217954000)
+/Users/andre.farias/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar -> lastModified(1492113025000)
+/Users/andre.farias/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.11.jar -> lastModified(1492113042000)
+class names:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.2.0.jar -> org.apache.spark.sql.types.DataType
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.2.0.jar -> org.apache.spark.SparkConf
+/Users/andre.farias/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.2.0.jar -> org.apache.spark.sql.expressions.UserDefinedFunction
+/Users/andre.farias/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.2.15.jar -> org.dmg.pmml.False
+/Users/andre.farias/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.11.jar -> scala.Predef$
+/Users/andre.farias/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.11.jar -> scala.reflect.api.TypeCreator
+internal apis:
+3 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBM989AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwiEzH0nQABm5vdGlmeXNxAH4ADEYY1K90AAR3YWl0c3EAfgAMcSwJo3QADSRhc0luc3RhbmNlT2ZzcQB+AAyepsJGdAAGZXF1YWxzc3EAfgAMzafi93QADGFzSW5zdGFuY2VPZnNxAH4ADDy21wF0AAxzeW5jaHJvbml6ZWRzcQB+AAwVWw6rdAANJGlzSW5zdGFuY2VPZnNxAH4ADH/AcuN0AAxQcmVwcm9jZXNzb3JzcQB+AAwmZrT1dAAEbWFpbnNxAH4ADCDAaSp0AAlub3RpZnlBbGxzcQB+AAykGPx6dAAMaXNJbnN0YW5jZU9mc3EAfgAMhOJwg3QAAj09c3EAfgAMXUvhyXQABWNsb25lc3EAfgAMbWgmfXQACHRvU3RyaW5nc3EAfgAMaC09+3QAAiE9c3EAfgAMeyFerXQACGdldENsYXNzc3EAfgAMZlDDhHQAAm5lc3EAfgAM4AF1iXQAAmVxc3EAfgAMiloHy3QAAiMjc3EAfgAMnRhqBnQACGZpbmFsaXplc3EAfgAM32l4/3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAHWNvbS5zcGFya1Byb2plY3QuUHJlcHJvY2Vzc29ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXnNxAH4AWXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBddAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGZ4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AG1bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AF1zcQB+AGx0AAVBcnJheXEAfgBydXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGx0AAZTdHJpbmdzcQB+AHBzcQB+AHN1cQB+AHYAAAADc3EAfgB4dAAEamF2YXNxAH4AeHQABGxhbmdxAH4AfXNxAH4AWXVxAH4APAAAAABzcQB+AFl1cQB+AJEAAAACc3EAfgBsdAAGT2JqZWN0cQB+AJVzcQB+AGx0AANBbnlxAH4AcnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5zcGFya1Byb2plY3RzcQB+AKZ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWZPWtZBdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFP6H23YvDz0Jj64qBIgbusye8I6H
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwQaNmpwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwtRYU7nQABm5vdGlmeXNxAH4ADBs4m3R0AAR3YWl0c3EAfgAMB008m3QADSRhc0luc3RhbmNlT2ZzcQB+AAwaP17EdAAGZXF1YWxzc3EAfgAMbbk8aHQADGFzSW5zdGFuY2VPZnNxAH4ADA0t88d0AAxzeW5jaHJvbml6ZWRzcQB+AAxUHr6JdAANJGlzSW5zdGFuY2VPZnNxAH4ADK+ZQkx0AARtYWluc3EAfgAMJ9oCSHQACW5vdGlmeUFsbHNxAH4ADB/HHyF0AAxpc0luc3RhbmNlT2ZzcQB+AAy/SlUxdAACPT1zcQB+AAw/ZbmMdAAFY2xvbmVzcQB+AAxQWmXddAAIdG9TdHJpbmdzcQB+AAwtQzQUdAACIT1zcQB+AAw23foPdAAIZ2V0Q2xhc3NzcQB+AAxtxEb1dAAHVHJhaW5lcnNxAH4ADNN3PkZ0AAJuZXNxAH4ADNTzLuF0AAJlcXNxAH4ADCW5W0Z0AAIjI3NxAH4ADN1LeXh0AAhmaW5hbGl6ZXNxAH4ADL5im7J0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABhjb20uc3BhcmtQcm9qZWN0LlRyYWluZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFlzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBec3EAfgBZdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF10AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBdc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AZnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AbVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AXXNxAH4AbHQABUFycmF5cQB+AHJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbHQABlN0cmluZ3NxAH4AcHNxAH4Ac3VxAH4AdgAAAANzcQB+AHh0AARqYXZhc3EAfgB4dAAEbGFuZ3EAfgB9c3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVxAH4AkQAAAAJzcQB+AGx0AAZPYmplY3RxAH4AlXNxAH4AbHQAA0FueXEAfgBydXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQY29tLnNwYXJrUHJvamVjdHNxAH4ApnQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjFmUEt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABjL1VzZXJzL2FuZHJlLmZhcmlhcy9EZXNrdG9wL1RlbGVjb21fY291cnNlcy9CaWdfRGF0YS9TcGFyay9UUDIvUHJvamVjdFRQMi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUz6Uud8UjI6EBOrxX5ING94TQcik=
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGNwZLQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw+M00n3QABm5vdGlmeXNxAH4ADM29WaR0AAR3YWl0c3EAfgAMBI6A93QADSRhc0luc3RhbmNlT2ZzcQB+AAwqKqfndAAGZXF1YWxzc3EAfgAMwE2vynQADGFzSW5zdGFuY2VPZnNxAH4ADFEePcx0AAxzeW5jaHJvbml6ZWRzcQB+AAzFfIbbdAANJGlzSW5zdGFuY2VPZnNxAH4ADHNfOsZ0AARtYWluc3EAfgAMKv4YJHQACVdvcmRDb3VudHNxAH4ADMsDHFh0AAlub3RpZnlBbGxzcQB+AAzrrNtKdAAMaXNJbnN0YW5jZU9mc3EAfgAMA+F4/nQAAj09c3EAfgAMa+7IxnQABWNsb25lc3EAfgAMxad433QACHRvU3RyaW5nc3EAfgAMKfLsIHQAAiE9c3EAfgAMtDL1ynQACGdldENsYXNzc3EAfgAMWtsNYnQAAm5lc3EAfgAMW4zKJ3QAAmVxc3EAfgAMvMwN13QAAiMjc3EAfgAMUs+LrnQACGZpbmFsaXplc3EAfgAM4jK2bnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGmNvbS5zcGFya1Byb2plY3QuV29yZENvdW50dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXnNxAH4AWXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBddAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGZ4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AG1bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AF1zcQB+AGx0AAVBcnJheXEAfgBydXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGx0AAZTdHJpbmdzcQB+AHBzcQB+AHN1cQB+AHYAAAADc3EAfgB4dAAEamF2YXNxAH4AeHQABGxhbmdxAH4AfXNxAH4AWXVxAH4APAAAAABzcQB+AFl1cQB+AJEAAAACc3EAfgBsdAAGT2JqZWN0cQB+AJVzcQB+AGx0AANBbnlxAH4AcnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGNvbS5zcGFya1Byb2plY3RzcQB+AKZ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWYxZlBLdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJGXRuUpQTAZ4p5xMAHjl/RrZzFx
+external apis:
+0 items
+source infos:
+3 items
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Preprocessor.scala -> 
+AAAAAAAAAAA=
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/Trainer.scala -> 
+AAAAAAAAAAA=
+/Users/andre.farias/Desktop/Telecom_courses/Big_Data/Spark/TP2/ProjectTP2/src/main/scala/com/sparkProject/WordCount.scala -> 
+AAAAAAAAAAA=
+compilations:
+67 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjFmUEt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjTILkl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjTLIMh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjTPabl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjTSKR11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjTVS2R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjT0pXF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjT26eh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjT5OQZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjUBr551cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjUNvAp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjUchVl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjUnVkh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjUruxN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZjVBcSd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZkTbM8Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZkTl6bh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZkTrlh51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZkTuZvZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk368GJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4NeIN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4QMTd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4So511cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4UOox1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4Vl4J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4Xir91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4YoYB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4aksZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4fncB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4iISp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4kLrl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4m6qh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4ocdN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk4ziYV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk425w91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk48H+F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk5BVY11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk5DFTx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk5OvoB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk5Wua11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk6um4h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7KlmN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7Ojut1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+43 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7c7jB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+44 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7ngSp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+45 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7pbcd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+46 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7z/aN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+47 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk75TQh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+48 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk76vFR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+49 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk799R51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+50 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk7/Cax1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+51 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8ATg51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8D8Pl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8GxER1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8IZpR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+55 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8K7Il1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+56 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8NYcB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+57 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk860gV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+58 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk88dsV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+59 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk89zut1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+60 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8+h7p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+61 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk8/qHZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+62 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk9E4h91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+63 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk9I4zR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+64 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk9Ns4p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+65 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk9X4fN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+66 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZk9a1kF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9hbmRyZS5mYXJpYXMvRGVza3RvcC9UZWxlY29tX2NvdXJzZXMvQmlnX0RhdGEvU3BhcmsvVFAyL1Byb2plY3RUUDIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
