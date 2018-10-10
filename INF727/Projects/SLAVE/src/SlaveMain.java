@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class SlaveMain {
@@ -33,6 +35,8 @@ public class SlaveMain {
 
 	public static void map(String ipath, String opath) throws IOException{
 		
+		Set<String> words_key = new HashSet<String>();
+		
 		FileReader in = new FileReader(ipath);
 		BufferedReader br = new BufferedReader(in);
     	
@@ -43,6 +47,10 @@ public class SlaveMain {
 		while((iline = br.readLine()) != null) {
 			for(String word: iline.split(" ")) {
 				writer.write(word+" "+1+"\n");
+				if(!words_key.contains(word)) {
+					System.out.println(word);
+					words_key.add(word);
+				}
 			}
 		}
 		writer.close();
