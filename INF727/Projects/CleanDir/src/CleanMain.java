@@ -74,12 +74,25 @@ public class CleanMain {
 		ArrayList<Process> prList = new ArrayList<Process>(); 
 		
 		for(String machine: machines) {		
-			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","-R","/tmp/amacedo/splits");
+			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","-Rf","/tmp/amacedo/splits");
 			Process p = pb.start();
 			prList.add(p);
 		}
+		
+		for(String machine: machines) {		
+			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","-Rf","/tmp/amacedo/maps");
+			Process p = pb.start();
+			prList.add(p);
+		}
+		
+		for(String machine: machines) {		
+			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","/tmp/amacedo/SLAVE.jar");
+			Process p = pb.start();
+			prList.add(p);
+		}
+		
 		for(Process p: prList) {
-			p.waitFor(3,TimeUnit.SECONDS);
+			p.waitFor(10,TimeUnit.SECONDS);
 		}
 		System.out.println("Clean process finalized");
 	}
