@@ -63,16 +63,21 @@ public class MasterMain {
 		return output;
 	}
 	
-	public static void launchSlaves(HashMap<String,ArrayList<String>> dict) throws InterruptedException, IOException {
+	public static void launchSlaves(HashMap<String,ArrayList<String>> worker_to_files) throws InterruptedException, IOException {
+		
 		// HashMap to keep track of processes and machines
 		HashMap<String,Process> process_um_map = new HashMap<String,Process>();
 		
 		// Dictionary of keywords -> list of UM*
-		HashMap<String,ArrayList<String>> dict_key_words = new HashMap<String,ArrayList<String>>();
+		HashMap<String,ArrayList<String>> key_words_to_um = new HashMap<String,ArrayList<String>>();
+		
+		// Dictionary of UM* -> worker
+		HashMap<String,String> um_to_worker = new HashMap<String,String>();
+		
 		
 		String files_dir = "/tmp/amacedo/splits/";
 		
-		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
+		for(Entry<String,ArrayList<String>> e: worker_to_files.entrySet()) {
 			String machine = e.getKey();
 			ArrayList<String> machine_files = e.getValue();
 			for(String infile: machine_files) {
@@ -91,20 +96,22 @@ public class MasterMain {
 			InputStream is = p.getInputStream();
 			ArrayList<String> key_words_list = outputUm(is);
 			for(String word: key_words_list) {
-				insertMap(dict_key_words,word,um_map);
+				insertMap(key_words_to_um,word,um_map);
 			}
 			
 		}
-		System.out.println();
-		System.out.println(dict_key_words);
-		System.out.println();
-		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
+		System.out.println("\nKey_words to UM file dictionary:");
+		System.out.println(key_words_to_um);
+		
+		for(Entry<String,ArrayList<String>> e: worker_to_files.entrySet()) {
 			String machine = e.getKey();
 			ArrayList<String> machine_files = e.getValue();
 			for(String infile: machine_files) {
-				System.out.println(getUmName(infile) + " - " + machine);
+				um_to_worker.put(getUmName(infile), machine);
 			}
 		}
+		System.out.println("\nUM file to machine dictionary:");
+		System.out.println(um_to_worker);
 	}
 	
 	public static void insertMap(HashMap<String,ArrayList<String>> dict, String word_key, String um_map) {
