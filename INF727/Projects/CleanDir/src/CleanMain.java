@@ -83,6 +83,7 @@ public class CleanMain {
 			machines.add(line);
 		}
 		in.close();
+		br.close();
 		return machines;
 	}
 	

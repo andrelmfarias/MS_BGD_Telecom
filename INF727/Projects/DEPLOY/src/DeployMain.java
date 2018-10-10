@@ -40,6 +40,7 @@ public class DeployMain {
 			machines.add(line);
 		}
 		in.close();
+		br.close();
 		return machines;
 	}
 	

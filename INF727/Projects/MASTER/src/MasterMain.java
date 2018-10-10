@@ -19,6 +19,7 @@ public class MasterMain {
 			machines.add(line);
 		}
 		in.close();
+		br.close();
 		return machines;
 	}
 	
@@ -120,7 +121,6 @@ public class MasterMain {
 			files.add("S"+i+".txt");
 		}
 		
-		
 		copyFiles(workers,files);
 		
 		//launchSlave(machines);
@@ -146,33 +146,13 @@ public class MasterMain {
 			Process p = e.getValue();
 			String machine = e.getKey();
 			
-			/*
-			
-			if(p.waitFor(5,TimeUnit.SECONDS)) {
-				String out_is = outputTest(p.getInputStream());
-				String out_es = outputTest(p.getErrorStream());
-				if(out_is.equals(machine)){
-					System.out.println(machine+": OK");
-					workers.add(machine);
-				} else{
-					System.err.println("Cannot connect to "+machine);
-					if(!out_es.isEmpty()) {
-						System.err.println("Error message: "+out_es);
-					}
-				}
-			}else { //if we wait too much
-				System.err.println("Timeout: Cannot connect to "+machine);
-			}
-			
-			*/
-			
 			if(p.waitFor(5,TimeUnit.SECONDS)) {
 				String out_is = outputTest(p.getInputStream());
 				if(out_is.equals(machine)){
 					workers.add(machine);
 				}
 			}
-			
+	
 		}
 		if(workers.size() >= n_workers) {
 			workers = new ArrayList<String> (workers.subList(0,n_workers));
@@ -200,9 +180,6 @@ public class MasterMain {
 			return outputs.get(0);
 		}else {
 			return "";
-		}
-		
+		}	
 	}
-	
-
 }
