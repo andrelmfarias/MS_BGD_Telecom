@@ -10,6 +10,31 @@ import java.util.concurrent.TimeUnit;
 
 public class MasterMain {
 	
+	public static void main(String[] args) throws IOException, InterruptedException {
+		
+		int n_workers = 3;
+		String machines_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		
+		ArrayList<String> machines = readMachines(machines_path);
+
+		ArrayList<String> workers = workingMachines(machines, n_workers);
+		
+		makeDir(workers);
+		
+		// create list of files
+		ArrayList<String> files = new ArrayList<String>();
+		for(int i = 0; i < 3; i++) {
+			files.add("S"+i+".txt");
+		}
+		
+		HashMap<String,ArrayList<String>> workers_to_files =  machineFilesDict(workers,files);
+		
+		copyFiles(workers_to_files);
+		
+		launchSlave(workers_to_files);
+
+	}
+
 	public static ArrayList<String> readMachines(String path) throws IOException{
 		FileReader in = new FileReader(path);
 		BufferedReader br = new BufferedReader(in);
@@ -41,30 +66,38 @@ public class MasterMain {
 		}
 	}
 	
-	public static void launchSlave(ArrayList<String> machines) throws InterruptedException, IOException {
+	public static void launchSlave(HashMap<String,ArrayList<String>> dict) throws InterruptedException, IOException {
 		// HashMap to keep track of processes and machines
-		HashMap<String,Process> processMap = new HashMap<String,Process>(); 
+		ArrayList<Process> processList = new ArrayList<Process>();
 		
-		for(String machine: machines) {		
-			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"java","-jar",
-												   "/tmp/amacedo/SLAVE.jar");
-			Process p = pb.start();
-			processMap.put(machine,p);
-		}
-		for(Entry<String, Process> e: processMap.entrySet()) {
-			Process p = e.getValue();
+		String files_dir = "/tmp/amacedo/splits/";
+		
+		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
 			String machine = e.getKey();
-			p.waitFor(10,TimeUnit.SECONDS);
-			System.out.println("Output on machine "+machine+":");
-			output(p.getInputStream());
-			output(p.getErrorStream());
-			System.out.println();
+			ArrayList<String> machine_files = e.getValue();
+			for(String file: machine_files) {
+				ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"java","-jar",
+						                              "/tmp/amacedo/SLAVE.jar","0",files_dir+file);
+				Process p = pb.start();
+				processList.add(p);
+			}
 		}
-		
-		// We can also just declare as below and we will not need a 
-		// ProcessBuilder pb = new ProcessBuilder("java", "-jar", "/tmp/amacedo/SLAVE.jar").inheritIO();
-		System.out.println("Slave process finalized");
-		
+	
+		for(Process p: processList) {
+			p.waitFor(10,TimeUnit.SECONDS);
+		}
+		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
+			String machine = e.getKey();
+			ArrayList<String> machine_files = e.getValue();
+			for(String ifile: machine_files) {
+				System.out.println(getUmName(ifile) + " - " + machine);
+			}
+		}
+	}
+	
+	public static String getUmName(String input_file) {
+		String txt_number = input_file.substring(1, input_file.length()-4);
+		return "UM" + txt_number + ".txt";
 	}
 	
 	public static void makeDir(ArrayList<String> machines) throws IOException, InterruptedException {
@@ -83,18 +116,20 @@ public class MasterMain {
 		System.out.println("mkdir process finalized");
 	}
 
-	public static void copyFiles(ArrayList<String> machines, ArrayList<String> files) throws IOException, InterruptedException {
+	public static void copyFiles(HashMap<String,ArrayList<String>> dict) throws IOException, InterruptedException {
 		
 		String files_repo = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Files/";
 		// List to keep track of process
 		ArrayList<Process> prList = new ArrayList<Process>();
-		int i = 0;	// tracks the machine index
-		for(String file: files) {	
-			ProcessBuilder pb = new ProcessBuilder("scp", files_repo+file,"amacedo@"
-													+machines.get(i)+":/tmp/amacedo/splits");
-			Process p = pb.start();
-			prList.add(p);
-			i = (i+1) % machines.size();
+		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
+			String machine = e.getKey();
+			ArrayList<String> machine_files = e.getValue();
+			for(String file: machine_files) {
+				ProcessBuilder pb = new ProcessBuilder("scp", files_repo+file,"amacedo@"
+						+machine+":/tmp/amacedo/splits");
+				Process p = pb.start();
+				prList.add(p);	
+			}
 		}
 		
 		for(Process p: prList) {
@@ -103,28 +138,25 @@ public class MasterMain {
 		System.out.println("copyFiles process finalized");
 	}	
 	
-	
-	public static void main(String[] args) throws IOException, InterruptedException {
+	public static HashMap<String,ArrayList<String>> machineFilesDict(ArrayList<String> machines, ArrayList<String> files){
 		
-		int n_workers = 3;
-		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		HashMap<String,ArrayList<String>> dict = new HashMap<String,ArrayList<String>>();
 		
-		ArrayList<String> machines = readMachines(path);
-
-		ArrayList<String> workers = workingMachines(machines, n_workers);
-		
-		makeDir(workers);
-		
-		// create list of files
-		ArrayList<String> files = new ArrayList<String>();
-		for(int i = 0; i < 3; i++) {
-			files.add("S"+i+".txt");
+		int i = 0;	// tracks the machine index
+		for(String file: files) {
+			String machine = machines.get(i);
+			if(!dict.containsKey(machine)) {
+				ArrayList<String> machine_files = new ArrayList<String>();
+				machine_files.add(file);
+				dict.put(machine, machine_files);
+			}else {
+				ArrayList<String> machine_files = dict.get(machine);
+				machine_files.add(file);
+				dict.replace(machine, machine_files);
+			}
+			i = (i+1) % machines.size();
 		}
-		
-		copyFiles(workers,files);
-		
-		//launchSlave(machines);
-
+		return dict;
 	}
 	
 	public static ArrayList<String> workingMachines(ArrayList<String> machines, int n_workers) throws IOException, InterruptedException {

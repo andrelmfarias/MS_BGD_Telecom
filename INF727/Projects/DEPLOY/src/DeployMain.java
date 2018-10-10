@@ -79,7 +79,7 @@ public class DeployMain {
 			}
 		}
 		if(!workers.isEmpty()) {
-			System.out.println("Workers: "+workers+"\n");
+			System.out.println("\nWorkers: "+workers+"\n");
 		}
 		else {
 			System.out.println("There are not connected machines");

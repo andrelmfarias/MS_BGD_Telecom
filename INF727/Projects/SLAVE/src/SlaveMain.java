@@ -36,7 +36,7 @@ public class SlaveMain {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		String mode = args[0];
-		String input_path = args[1];
+		String input_path = args[1]; // path in the form: /tmp/amacedo/split/S*.txt
 		
 		//System.out.println("mode: "+mode);
 		//System.out.println("input path: "+input_path);
