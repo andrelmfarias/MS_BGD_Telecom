@@ -9,6 +9,16 @@ import java.util.Map.Entry;
 import java.util.concurrent.TimeUnit;
 
 public class CleanMain {
+	
+	public static void main(String[] args) throws IOException, InterruptedException {
+		
+		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		
+		ArrayList<String> machines = readMachines(path);
+		ArrayList<String> workers = workingMachines(machines);
+		clean(workers);
+
+	}
 
 	public static ArrayList<String> workingMachines(ArrayList<String> machines) throws IOException, InterruptedException {
 		
@@ -87,14 +97,4 @@ public class CleanMain {
 		return machines;
 	}
 	
-	public static void main(String[] args) throws IOException, InterruptedException {
-		
-		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
-		
-		ArrayList<String> machines = readMachines(path);
-		ArrayList<String> workers = workingMachines(machines);
-		clean(workers);
-
-	}
-
 }

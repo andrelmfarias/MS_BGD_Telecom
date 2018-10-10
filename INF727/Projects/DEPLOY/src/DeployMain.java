@@ -10,6 +10,21 @@ import java.util.concurrent.TimeUnit;
 
 public class DeployMain {
 	
+	public static void main(String[] args) throws IOException, InterruptedException {
+		
+		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		int n_workers = 3;
+		
+		ArrayList<String> machines = readMachines(path);
+		ArrayList<String> workers = workingMachines(machines);
+		if(!workers.isEmpty() && workers.size() >= n_workers) {
+			// taking a sublist of n_workers
+			workers = new ArrayList<String> (workers.subList(0,n_workers)); 
+			makeDir(workers);
+			copyFile(workers);
+		}
+	}
+	
 	public static String output(InputStream inputStream) throws IOException {
 		BufferedReader br = null;
 		ArrayList<String> outputs = new ArrayList<String>();
@@ -122,20 +137,5 @@ public class DeployMain {
 		}
 		System.out.println("scp process finalized");
 	}
-
-
-	public static void main(String[] args) throws IOException, InterruptedException {
-		
-		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
-		int n_workers = 3;
-		
-		ArrayList<String> machines = readMachines(path);
-		ArrayList<String> workers = workingMachines(machines);
-		if(!workers.isEmpty() && workers.size() >= n_workers) {
-			// taking a sublist of n_workers
-			workers = new ArrayList<String> (workers.subList(0,n_workers)); 
-			makeDir(workers);
-			copyFile(workers);
-		}
-	}
+	
 }
