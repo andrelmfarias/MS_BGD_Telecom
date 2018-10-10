@@ -31,7 +31,7 @@ public class MasterMain {
 		
 		copyFiles(workers_to_files);
 		
-		launchSlave(workers_to_files);
+		launchSlaves(workers_to_files);
 
 	}
 
@@ -48,50 +48,74 @@ public class MasterMain {
 		return machines;
 	}
 	
-	private static void output(InputStream inputStream) throws IOException {
-		StringBuilder sb = new StringBuilder();
+	private static ArrayList<String> outputUm(InputStream inputStream) throws IOException {
+		ArrayList<String> output = new ArrayList<String>();
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new InputStreamReader(inputStream));
 			String line = null;
 			while ((line = br.readLine()) != null) {
-				sb.append(line + System.getProperty("line.separator"));
+				output.add(line);
 			}
 		} finally {
 			br.close();
 		}
-		String outputStr = sb.toString();
-		if(outputStr.length()!=0) {
-			System.out.println(outputStr.substring(0,outputStr.length()-1));
-		}
+		return output;
 	}
 	
-	public static void launchSlave(HashMap<String,ArrayList<String>> dict) throws InterruptedException, IOException {
+	public static void launchSlaves(HashMap<String,ArrayList<String>> dict) throws InterruptedException, IOException {
 		// HashMap to keep track of processes and machines
-		ArrayList<Process> processList = new ArrayList<Process>();
+		HashMap<String,Process> process_um_map = new HashMap<String,Process>();
+		
+		// Dictionary of keywords -> list of UM*
+		HashMap<String,ArrayList<String>> dict_key_words = new HashMap<String,ArrayList<String>>();
 		
 		String files_dir = "/tmp/amacedo/splits/";
 		
 		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
 			String machine = e.getKey();
 			ArrayList<String> machine_files = e.getValue();
-			for(String file: machine_files) {
+			for(String infile: machine_files) {
 				ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"java","-jar",
-						                              "/tmp/amacedo/SLAVE.jar","0",files_dir+file);
+						                              "/tmp/amacedo/SLAVE.jar","0",files_dir+infile);
 				Process p = pb.start();
-				processList.add(p);
+				String um_map = getUmName(infile);
+				process_um_map.put(um_map,p);
 			}
 		}
 	
-		for(Process p: processList) {
+		for(Entry<String, Process> e: process_um_map.entrySet()) {
+			Process p = e.getValue();
+			String um_map = e.getKey();
 			p.waitFor(10,TimeUnit.SECONDS);
+			InputStream is = p.getInputStream();
+			ArrayList<String> key_words_list = outputUm(is);
+			for(String word: key_words_list) {
+				insertMap(dict_key_words,word,um_map);
+			}
+			
 		}
+		System.out.println();
+		System.out.println(dict_key_words);
+		System.out.println();
 		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
 			String machine = e.getKey();
 			ArrayList<String> machine_files = e.getValue();
-			for(String ifile: machine_files) {
-				System.out.println(getUmName(ifile) + " - " + machine);
+			for(String infile: machine_files) {
+				System.out.println(getUmName(infile) + " - " + machine);
 			}
+		}
+	}
+	
+	public static void insertMap(HashMap<String,ArrayList<String>> dict, String word_key, String um_map) {
+		if(dict.containsKey(word_key)) {
+			ArrayList<String> umList = dict.get(word_key);
+			umList.add(um_map);
+			dict.replace(word_key, umList);
+		}else {
+			ArrayList<String> umList = new ArrayList<String>();
+			umList.add(um_map);
+			dict.put(word_key, umList);
 		}
 	}
 	
