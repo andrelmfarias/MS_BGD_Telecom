@@ -34,3 +34,15 @@ def get_q4_sales(company):
     q4_sales = soup.find("tr", class_ = specific_class).text
     q4_sales = q4_sales.split("\n")[3] # obtaining sales qty as string
     return float(q4_sales.replace(",","")) # transforming to float number
+
+def get_shares_owned(company):
+    url = website_prefix + companies_url[company]
+    soup = get_soup(url)
+    specific_class = "dataTable"
+    specific_width = "100%"
+    specific_cellpadding="0"
+    specific_cellspacing="1"
+    shares_owned = soup.find("table", class_ = specific_class, width = specific_width, \
+                            cellpadding = specific_cellpadding, cellspacing = specific_cellspacing).text
+    shares_owned = shares_owned.strip().split("\n")[1]
+    return float(shares_owned[:-1]) # returns float x for a pct x%
