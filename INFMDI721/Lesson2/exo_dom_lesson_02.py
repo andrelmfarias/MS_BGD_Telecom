@@ -1,6 +1,5 @@
 # coding: utf-8
 import requests
-import unittest
 from bs4 import BeautifulSoup
 
 website_prefix = "https://www.reuters.com/finance/stocks/financial-highlights/"
@@ -31,18 +30,46 @@ def get_q4_sales(company):
     url = website_prefix + companies_url[company]
     soup = get_soup(url)
     specific_class = "stripe"
-    q4_sales = soup.find("tr", class_ = specific_class).text
-    q4_sales = q4_sales.split("\n")[3] # obtaining sales qty as string
+    html_code = soup.find("tr", class_ = specific_class).text
+    q4_sales = html_code.split("\n")[3] # obtaining sales qty as string
     return float(q4_sales.replace(",","")) # transforming to float number
 
 def get_shares_owned(company):
     url = website_prefix + companies_url[company]
     soup = get_soup(url)
-    specific_class = "dataTable"
-    specific_width = "100%"
-    specific_cellpadding="0"
-    specific_cellspacing="1"
-    shares_owned = soup.find("table", class_ = specific_class, width = specific_width, \
-                            cellpadding = specific_cellpadding, cellspacing = specific_cellspacing).text
-    shares_owned = shares_owned.strip().split("\n")[1]
+    spc_class = "dataTable"
+    spc_width = "100%"
+    spc_cellpadding = "0"
+    spc_cellspacing = "1"
+    html_code = soup.find("table", class_ = spc_class, width = spc_width, \
+                        cellpadding = spc_cellpadding, cellspacing = spc_cellspacing).text
+    shares_owned = html_code.strip().split("\n")[1]
     return float(shares_owned[:-1]) # returns float x for a pct x%
+
+def get_div_yield(company):
+    url = website_prefix + companies_url[company]
+    soup = get_soup(url)
+    spc_class = "dataTable"
+    spc_width = "100%"
+    spc_cellpadding = "1"
+    spc_cellspacing = "0"
+    html_code = soup.findAll("table", class_ = spc_class, width = spc_width, \
+                        cellpadding = spc_cellpadding, cellspacing = spc_cellspacing)[1].text
+    # taking the 3 first div_yields as list of string
+    div_yield_str = html_code.strip().split("\n")[6:9]
+    # transforming list of string in a list of floats using map
+    div_yield = list(map(lambda div: float(div), div_yield_str))
+    return div_yield
+
+def get_financials(company):
+    financials = {}
+    financials["SP"] = get_share_price(company)
+    financials["% change"] = get_pct_change(company)
+    financials["Q4 sales"] = get_q4_sales(company)
+    financials["% of shares owned by inst. inv."] = get_shares_owned(company)
+
+    # creating nested dictionary for div. yield
+    financials["Div. yield"] = {}
+    financials["Div. yield"]["Company"], financials["Div. yield"]["Industry"], \
+    financials["Div. yield"]["Sector"] = get_div_yield(company)
+    return financials
