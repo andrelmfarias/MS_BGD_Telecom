@@ -25,4 +25,12 @@ def get_pct_change(company):
     soup = get_soup(url)
     specific_class = "valueContentPercent"
     pct_change = soup.find("span", class_ = specific_class).text
-    return float(pct_change.strip()[1:-2]) # returns float x for a pct x% 
+    return float(pct_change.strip()[1:-2]) # returns float x for a pct x%
+
+def get_q4_sales(company):
+    url = website_prefix + companies_url[company]
+    soup = get_soup(url)
+    specific_class = "stripe"
+    q4_sales = soup.find("tr", class_ = specific_class).text
+    q4_sales = q4_sales.split("\n")[3] # obtaining sales qty as string
+    return float(q4_sales.replace(",","")) # transforming to float number
