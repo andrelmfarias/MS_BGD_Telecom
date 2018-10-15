@@ -5,8 +5,11 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		String abc = "asai nsiajsi";
-		System.out.println(abc.split(" ")[0]);
+		HashMap<String,String> myMap = new HashMap<String,String>();
+		myMap.put("a", "1");
+		myMap.put("b", "1");
+		long n = myMap.values().stream().distinct().count();
+		System.out.println(n);
 		
 
 	}
