@@ -12,8 +12,11 @@ public class SlaveMain {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		String mode = args[0];
+		// mode = 0: map
+		// mode = 1: shuffle
+		// mode = 2: reduce
 
-		if (mode.equals("0")) {
+		if (mode.equals("0")) { // map
 			String input_path = args[1]; // path in the form: /tmp/amacedo/split/S*.txt
 			
 			// Getting number of file
@@ -28,7 +31,7 @@ public class SlaveMain {
 			map(input_path,output_path);
 		}	
 		
-		if(mode.equals("1")) {
+		if(mode.equals("1")) { // shuffle
 			String key = args[1];
 			String sm_path = args[2];
 			ArrayList<String> um_files = new ArrayList<String>();
@@ -37,6 +40,14 @@ public class SlaveMain {
 			}
 			shuffle(key, sm_path, um_files);
 			
+		}
+		
+		if(mode.equals("2")) { // reduce
+			String key = args[1];
+			String sm_path = args[2];
+			String rm_path = args[3];
+			makeDir("/tmp/amacedo/reduces");
+			reduce(key, sm_path, rm_path);
 		}
 	}
 
@@ -90,6 +101,27 @@ public class SlaveMain {
 			br.close();
 		}
 		writer.close();		
+	}
+	
+	public static void reduce(String key, String sm_path, String rm_path) throws IOException {
+		// Reading SM*.txt file and counting number of times key appear in the doc
+		FileReader in = new FileReader(sm_path);
+		BufferedReader br = new BufferedReader(in);
+		String line = null;
+		int count = 0;
+		while ((line = br.readLine()) != null) {
+			if(key.contains(line.split(" ")[0])) {
+				count ++;
+			}
+		}
+		in.close();
+		br.close();
+		
+		// Writing result of reduce operation in a RM*.txt file
+		FileWriter writer;
+		writer = new FileWriter(rm_path);
+		writer.write(key + " " + Integer.toString(count)+"\n");
+		writer.close();
 	}
 	
 	
