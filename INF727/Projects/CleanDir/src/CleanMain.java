@@ -86,6 +86,12 @@ public class CleanMain {
 		}
 		
 		for(String machine: machines) {		
+			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","-Rf","/tmp/amacedo/reduces");
+			Process p = pb.start();
+			prList.add(p);
+		}
+		
+		for(String machine: machines) {		
 			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"rm","/tmp/amacedo/SLAVE.jar");
 			Process p = pb.start();
 			prList.add(p);
