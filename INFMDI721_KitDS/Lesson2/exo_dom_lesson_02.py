@@ -85,7 +85,7 @@ financials_df = pd.DataFrame(all_financials).transpose()
 # Changing columns to a proper order
 columnsTitles = ["SP (€)","% change","Q4 sales (m€)",  \
               "% of shares owned by inst. inv.",       \
-              "DY Company(%)","DY Industry(%)","DY Sector(%)"]
+              "DY Company(%)", "DY Industry(%)", "DY Sector(%)"]
 financials_df = financials_df.reindex(columns=columnsTitles)
 
 print(financials_df)
