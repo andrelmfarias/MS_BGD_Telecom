@@ -29,12 +29,18 @@ def get_list_of_users(url):
         lst_users.append(user)
     return lst_users
 
-users = get_list_of_users(url)
-
-def get_json(user):
+def get_json_list(user):
     url_user = url_API.format(user=user)
     res = requests.get(url_user, headers={"Authorization": git_token})
     if res.status_code == 200:
-        return res.json()[0] # return json element
+        return res.json() # return json element
     else:
         return None
+
+def get_stars_mean(json_list):
+    stars = 0
+    for json_element in json_list:
+        stars = stars + json_element['stargazers_count']
+    return stars/len(json_list) 
+
+users = get_list_of_users(url)
