@@ -1,6 +1,7 @@
 # coding: utf-8
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 url = "https://gist.github.com/paulmillr/2657075"
 url_API = "https://api.github.com/users/{user}/repos"
@@ -42,7 +43,7 @@ def get_stars_mean(json_list):
     for json_element in json_list:
         stars = stars + json_element['stargazers_count']
     if len(json_list) is not 0:
-        return stars/len(json_list)
+        return round(stars/len(json_list),2)
     else:
         return 0
 
@@ -53,4 +54,7 @@ for user in users:
     json_list = get_json_list(user)
     mean_rating = get_stars_mean(json_list)
     users_mean_ratings[user] = mean_rating
-print(users_mean_ratings)
+
+sorted_ratings = sorted(users_mean_ratings.items(), key=lambda x: x[1],reverse=True)
+df_ratings = pd.DataFrame(sorted_ratings, columns=['User','Rating'])
+print(df_ratings)
