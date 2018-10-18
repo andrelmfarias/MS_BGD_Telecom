@@ -83,7 +83,7 @@ jobs = []
 manager = mp.Manager()
 users_dict = manager.dict()
 pr_tracker = 0 # tracker to avoid launching all processes at once
-for user in users[:5]:
+for user in users:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict))
     jobs.append(p)
     p.start()
