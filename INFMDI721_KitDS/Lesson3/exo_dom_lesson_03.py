@@ -99,12 +99,9 @@ for p in jobs:
 
 df = pd.DataFrame.from_dict(users_dict, orient='index',
                             columns=['tot_stars','#_repos','mean_rating'])
-df.reset_index(level=0, inplace=True)
-df.rename(columns={'index': 'user'}, inplace=True)
-
 sorted_df = df.sort_values(by='mean_rating', ascending=False)
 sorted_df.reset_index(level=0, inplace=True)
-sorted_df.drop('index', axis=1, inplace=True)
+sorted_df.rename(columns={'index': 'user'}, inplace=True)
 print(sorted_df)
 
 execution_time = (time.time() - start_time) # time in seconds
