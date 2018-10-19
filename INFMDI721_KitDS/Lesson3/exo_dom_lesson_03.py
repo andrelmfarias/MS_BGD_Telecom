@@ -120,7 +120,7 @@ users_dict = manager.dict() # dictionary that keeps all the results
 t = manager.list() # list that tracks timing of requests for plotting
 
 # launching processes in a parallelized way
-for user in users[]:
+for user in users:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict,t))
     jobs.append(p)
     p.start()
