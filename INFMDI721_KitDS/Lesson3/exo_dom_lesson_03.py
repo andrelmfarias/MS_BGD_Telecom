@@ -39,24 +39,27 @@ def get_list_of_users(url):
             lst_users.append(user)
     return lst_users
 
+def request_json(user,page):
+    url_user = url_API.format(user=user, page=page)
+    while True:
+        res = requests.get(url_user, headers=headers)
+        sts_code = res.status_code
+        if sts_code == 200:
+            break
+        time.sleep(1)
+    return res.json()
+
 def get_json_list(user):
     json_list =[]
     page = 1
     stop = False # boolean to keep track of last page of repos
     while not stop:
-        url_user = url_API.format(user=user, page=page)
-        res = requests.get(url_user, headers=headers)
-        sts_code = res.status_code
-        if sts_code == 200:
-            current_page_list = res.json()
-            # add json list for this page
-            json_list = json_list + current_page_list
-            if len(current_page_list) < 100: # if we reach last repo, stop process
-                stop = True
-            page = page + 1
-        else:
-            print("Error: json list not available for user: " + user)
-            print("Status code: " + str(sts_code))
+        current_page_list = request_json(user,page)
+        json_list = json_list + current_page_list
+        if len(current_page_list) < 100: # if we reach last repo, stop process
+            stop = True
+        page = page + 1
+
     return json_list
 
 def get_tot_stars(json_list):
@@ -83,7 +86,7 @@ jobs = []
 manager = mp.Manager()
 users_dict = manager.dict()
 pr_tracker = 0 # tracker to avoid launching all processes at once
-for user in users:
+for user in users[:5]:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict))
     jobs.append(p)
     p.start()
@@ -91,7 +94,6 @@ for user in users:
     if pr_tracker == 0:
         for prc in jobs:
             prc.join()
-        print("Tracker reinitiated at user: " + user + " --> at index " + str(users.index(user)))
         jobs = [] # reinitiate jobs list
 
 # applying join to the remaining process in job list
