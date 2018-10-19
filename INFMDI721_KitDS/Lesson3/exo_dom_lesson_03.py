@@ -48,7 +48,6 @@ def request_json(user,page):
             break
         else:
             time.sleep(1)
-            print("Could not get page " + str(page) + " for: " + user)
     return res.json()
 
 
@@ -62,7 +61,7 @@ def get_json_list(user):
         if len(current_page_list) < 100: # if we reach last repo, stop process
             stop = True
         page = page + 1
-    print(user + " completed")
+    print(user + " : Request completed")
     return json_list
 
 def get_tot_stars(json_list):
@@ -88,18 +87,12 @@ users = get_list_of_users(url)
 jobs = []
 manager = mp.Manager()
 users_dict = manager.dict()
-#pr_tracker = 0 # tracker to avoid launching all processes at once
+
 for user in users:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict))
     jobs.append(p)
     p.start()
-#    pr_tracker = (pr_tracker+1) % 20 # for each group of 5 processes we wait
-#    if pr_tracker == 0:
-#        for prc in jobs:
-#            prc.join()
-#        jobs = [] # reinitiate jobs list
 
-# applying join to the remaining process in job list
 for p in jobs:
     p.join()
 
