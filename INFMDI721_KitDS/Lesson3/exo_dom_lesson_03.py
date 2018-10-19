@@ -16,11 +16,14 @@ url_API = "https://api.github.com/users/{user}/repos?page={page}&per_page=100"
 with open('token.txt') as f:
     content = f.readlines()
 git_token = content[0].strip()
-headers =  {'Authorization': 'token {}'.format(git_token)}
+headers =  {'Authorization': 'token {}'.format(git_token)} # to use in request
 
 def get_soup(url):
+
+    ''' return html_code from url if status_code == 200 and return None if not'''
+
     res = requests.get(url)
-    if res.status_code == 200:
+    if res.status_code == 200: # if request is effectivelly done
         html_code = res.text
         soup = BeautifulSoup(html_code, "html.parser")
         return soup
@@ -30,6 +33,9 @@ def get_soup(url):
         return None
 
 def get_list_of_users(url):
+
+    ''' # get list of users from github page '''
+
     lst_users = []
     soup = get_soup(url)
     if soup is not None:
@@ -41,21 +47,35 @@ def get_list_of_users(url):
     return lst_users
 
 def request_json(user,page,t):
+    '''
+     Return list of json elements for user on the requested page
+     t is a list that tracks the timing for each completed request
+
+     It works as a loop that keep requesting until the request is good
+     (status_code == 200). The loop is forced to stop after 3min of requesting
+     without goog result.
+    '''
+
     url_user = url_API.format(user=user, page=page)
-    t_request = 0
+    t_request = 0 # initiate time counter
     while t_request is not 180: # while we do not spend 3min doing the request, we keep doing it
         res = requests.get(url_user, headers=headers)
         sts_code = res.status_code
         if sts_code == 200:
-            t.append(time.time())
-            break
+            t.append(time.time()) # append timing of request to t list
+            return res.json() # if status_code is ok return json list and get out of loop
         else:
-            time.sleep(1)
+            time.sleep(1) # wait 1 sec if request fails and request again
             t_request += 1
-    return res.json()
-
+    # if we reach 3min return None
+    return None
 
 def get_json_list(user,t):
+    '''
+    Return list of json elements for all pages of user
+    t t is a list that tracks the timing for each completed page request
+    '''
+
     json_list =[]
     page = 1
     stop = False # boolean to keep track of last page of repos
@@ -64,7 +84,7 @@ def get_json_list(user,t):
         json_list = json_list + current_page_list
         if len(current_page_list) < 100: # if we reach last repo, stop process
             stop = True
-        page = page + 1
+        page = page + 1 # goes to next page
     print("Request completed for user: " + user)
     return json_list
 
@@ -75,6 +95,11 @@ def get_tot_stars(json_list):
     return stars
 
 def insert_info_in_dict(user,users_dict,t):
+    '''
+    Insert information (rating, mean_rating, user, etc...) in dictionary
+    passed as argument in order to parallelize using Multiprocessing.Process
+    '''
+
     json_list = get_json_list(user,t)
     n_repos = len(json_list)
     stars = get_tot_stars(json_list)
@@ -90,13 +115,14 @@ users = get_list_of_users(url)
 
 jobs = []
 manager = mp.Manager()
-users_dict = manager.dict()
+users_dict = manager.dict() # dictionary that keeps all the results
 t = manager.list() # list that tracks timing of requests for plotting
 for user in users:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict,t))
     jobs.append(p)
     p.start()
 
+# waiting for all processes to finish
 for p in jobs:
     p.join()
 
