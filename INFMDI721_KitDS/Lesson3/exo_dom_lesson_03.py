@@ -40,13 +40,15 @@ def get_list_of_users(url):
 
 def request_json(user,page):
     url_user = url_API.format(user=user, page=page)
-    while True:
+    t_request = 0
+    while t_request is not 180: # while we do not spend 3min doing the request, we keep doing it
         res = requests.get(url_user, headers=headers)
         sts_code = res.status_code
         if sts_code == 200:
             break
         else:
             time.sleep(1)
+            t_request += 1
     return res.json()
 
 
@@ -102,7 +104,7 @@ df.rename(columns={'index': 'user'}, inplace=True)
 
 sorted_df = df.sort_values(by='mean_rating', ascending=False)
 sorted_df.reset_index(level=0, inplace=True)
-sorted_df.rename(columns={'index': 'original_position'}, inplace=True)
+sorted_df.drop('index', axis=1, inplace=True)
 print(sorted_df)
 
 execution_time = (time.time() - start_time) # time in seconds
