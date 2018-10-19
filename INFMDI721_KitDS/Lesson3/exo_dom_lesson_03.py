@@ -113,11 +113,14 @@ def insert_info_in_dict(user,users_dict,t):
 
 users = get_list_of_users(url)
 
+# preparing for process parallelization
 jobs = []
 manager = mp.Manager()
 users_dict = manager.dict() # dictionary that keeps all the results
 t = manager.list() # list that tracks timing of requests for plotting
-for user in users:
+
+# launching processes in a parallelized way
+for user in users[]:
     p = mp.Process(target=insert_info_in_dict,args=(user,users_dict,t))
     jobs.append(p)
     p.start()
@@ -126,12 +129,13 @@ for user in users:
 for p in jobs:
     p.join()
 
+# putting results into a DataFrame
 df = pd.DataFrame.from_dict(users_dict, orient='index',
                             columns=['tot_stars','#_repos','mean_rating'])
 sorted_df = df.sort_values(by='mean_rating', ascending=False)
 sorted_df.reset_index(level=0, inplace=True)
 sorted_df.rename(columns={'index': 'user'}, inplace=True)
-print("\nList of users sorted by Rating Mean: ")
+print("\nList of users sorted by Rating Mean:\n")
 print(sorted_df)
 
 execution_time = (time.time() - start_time) # time in seconds
@@ -146,9 +150,11 @@ rqst_lst = range(n_request)
 pct_request = list(map(lambda x: x/len(t), rqst_lst))
 t_rebased = list(map(lambda x: x - t[0], t))
 
-plt.figure(figsize=(12,8))
+fig = plt.figure(figsize=(12,8))
 plt.plot(t_rebased, pct_request)
 plt.xlabel("Time in seconds")
 plt.ylabel("% of requests done")
 plt.title("Evolution of requests done")
 plt.show()
+fig.savefig('time_execution.png')
+plt.close(fig)
