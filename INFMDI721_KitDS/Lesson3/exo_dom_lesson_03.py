@@ -1,5 +1,7 @@
 # coding: utf-8
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 import requests
 from bs4 import BeautifulSoup
 import multiprocessing as mp
@@ -38,13 +40,14 @@ def get_list_of_users(url):
             lst_users.append(user)
     return lst_users
 
-def request_json(user,page):
+def request_json(user,page,t):
     url_user = url_API.format(user=user, page=page)
     t_request = 0
     while t_request is not 180: # while we do not spend 3min doing the request, we keep doing it
         res = requests.get(url_user, headers=headers)
         sts_code = res.status_code
         if sts_code == 200:
+            t.append(time.time())
             break
         else:
             time.sleep(1)
@@ -52,17 +55,17 @@ def request_json(user,page):
     return res.json()
 
 
-def get_json_list(user):
+def get_json_list(user,t):
     json_list =[]
     page = 1
     stop = False # boolean to keep track of last page of repos
     while not stop:
-        current_page_list = request_json(user,page)
+        current_page_list = request_json(user,page,t)
         json_list = json_list + current_page_list
         if len(current_page_list) < 100: # if we reach last repo, stop process
             stop = True
         page = page + 1
-    print(user + " : Request completed")
+    print("Request completed for user: " + user)
     return json_list
 
 def get_tot_stars(json_list):
@@ -71,8 +74,8 @@ def get_tot_stars(json_list):
         stars = stars + json_element['stargazers_count']
     return stars
 
-def insert_info_in_dict(user,users_dict):
-    json_list = get_json_list(user)
+def insert_info_in_dict(user,users_dict,t):
+    json_list = get_json_list(user,t)
     n_repos = len(json_list)
     stars = get_tot_stars(json_list)
     if n_repos != 0:
@@ -88,9 +91,9 @@ users = get_list_of_users(url)
 jobs = []
 manager = mp.Manager()
 users_dict = manager.dict()
-
+t = manager.list() # list that tracks timing of requests for plotting
 for user in users:
-    p = mp.Process(target=insert_info_in_dict,args=(user,users_dict))
+    p = mp.Process(target=insert_info_in_dict,args=(user,users_dict,t))
     jobs.append(p)
     p.start()
 
@@ -102,8 +105,24 @@ df = pd.DataFrame.from_dict(users_dict, orient='index',
 sorted_df = df.sort_values(by='mean_rating', ascending=False)
 sorted_df.reset_index(level=0, inplace=True)
 sorted_df.rename(columns={'index': 'user'}, inplace=True)
+print("\nList of users sorted by Rating Mean: ")
 print(sorted_df)
 
 execution_time = (time.time() - start_time) # time in seconds
 exec_time_min = round(execution_time/60,1)
-print("Total time: " + str(exec_time_min) + "min")
+print("\nTotal execution time: " + str(exec_time_min) + "min")
+
+# Plotting
+sns.set_style('darkgrid')
+t = list(t)
+n_request = len(t)
+rqst_lst = range(n_request)
+pct_request = list(map(lambda x: x/len(t), rqst_lst))
+t_rebased = list(map(lambda x: x - t[0], t))
+
+plt.figure(figsize=(12,8))
+plt.plot(t_rebased, pct_request)
+plt.xlabel("Time in seconds")
+plt.ylabel("% of requests done")
+plt.title("Evolution of requests done")
+plt.show()
