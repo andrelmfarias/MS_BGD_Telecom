@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import multiprocessing as mp
 import time
 
-
 start_time = time.time()
 
 url = "https://gist.github.com/paulmillr/2657075"
@@ -102,6 +101,8 @@ df.reset_index(level=0, inplace=True)
 df.rename(columns={'index': 'user'}, inplace=True)
 
 sorted_df = df.sort_values(by='mean_rating', ascending=False)
+sorted_df.reset_index(level=0, inplace=True)
+sorted_df.rename(columns={'index': 'original_position'}, inplace=True)
 print(sorted_df)
 
 execution_time = (time.time() - start_time) # time in seconds
