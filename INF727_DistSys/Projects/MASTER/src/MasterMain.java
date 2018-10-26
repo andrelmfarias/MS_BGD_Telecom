@@ -260,7 +260,7 @@ public class MasterMain {
 			String target_worker = workers.get(i);
 			for(String um_file: um_list) {
 				String origin_worker = um_to_worker.get(um_file);
-				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/" 
+				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/" // TODO :/tmp/amacedo/maps isn't  ????
 						+ um_file +	".txt", "amacedo@" + target_worker + ":/tmp/amacedo/maps");
 				Process p = pb.start();
 				prList.add(p);
