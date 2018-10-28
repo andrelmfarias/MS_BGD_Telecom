@@ -271,8 +271,9 @@ public class MasterMain {
 			String worker = workers.get(i);
 			String sm_file = "/tmp/amacedo/maps/SM" + Integer.toString(smNum) + ".txt";
 			for(String um_file: um_list) {
-				um_list_str += "/tmp/amacedo/maps" + um_file + ".txt ";
+				um_list_str += "/tmp/amacedo/maps/" + um_file + " ";
 			}
+			System.out.println("ssh" + " " + "amacedo@" + worker + " " + "java" + " " + "-jar" + " " + "/tmp/amacedo/SLAVE.jar" + " " + "1" + " " + key + " " + sm_file + " " + um_list_str);
 			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java", "-jar", 
 					"/tmp/amacedo/SLAVE.jar","1",key,sm_file,um_list_str);
 			Process p = pb.start();
