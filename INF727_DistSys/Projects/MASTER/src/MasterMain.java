@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -40,7 +41,13 @@ public class MasterMain {
 		
 		HashMap<String,String> sm_file_to_key = launchShuffle(um_to_worker, key_words_to_um, workers);
 		
-		launchReduce(workers, sm_file_to_key);
+		HashMap<String,String> rm_to_key = launchReduce(workers, sm_file_to_key);
+		
+		System.out.println("\nResults from word count:");
+		
+		HashMap<String,Integer> results = resultsFromReduce(workers, rm_to_key);
+		
+		createOuputFile(results);
 
 	}
 
@@ -295,7 +302,9 @@ public class MasterMain {
 					
 	}
 	
-	public static void launchReduce(ArrayList<String> workers, HashMap<String,String> sm_file_to_key) throws IOException, InterruptedException {
+	public static HashMap<String,String> launchReduce(ArrayList<String> workers, HashMap<String,String> sm_file_to_key) throws IOException, InterruptedException {
+		
+		HashMap<String,String> rm_to_key = new HashMap<String,String>();
 		
 		int i = 0; // reinitiate iteration over workers
 		int n_workers = workers.size();
@@ -305,6 +314,7 @@ public class MasterMain {
 			String rm_file = "/tmp/amacedo/reduces/RM" + Integer.toString(smNum) + ".txt";
 			String worker = workers.get(i);
 			String key = sm_file_to_key.get(sm_file);
+			rm_to_key.put(rm_file, key);
 			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java", "-jar", 
 					"/tmp/amacedo/SLAVE.jar","2",key,sm_file,rm_file);
 			Process p = pb.start();
@@ -315,6 +325,71 @@ public class MasterMain {
 		for(Process p: prList) {
 			p.waitFor(10,TimeUnit.SECONDS);
 		}
+		return rm_to_key;
+		
+	}
+	
+	public static HashMap<String,Integer> resultsFromReduce(ArrayList<String> workers, HashMap<String,String> rm_to_key) throws IOException, InterruptedException {
+		
+		HashMap<String,Integer> results = new HashMap<String,Integer>();
+		ArrayList<Process> prList = new ArrayList<Process>();
+		int i = 0; // reinitiate iteration over workers
+		int n_workers = workers.size();
+		for(int smNum = 0; smNum < rm_to_key.keySet().size(); smNum++) {
+			String rm_file = "/tmp/amacedo/reduces/RM" + Integer.toString(smNum) + ".txt";
+			String worker = workers.get(i);
+			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "cat",rm_file);
+			Process p = pb.start();
+			prList.add(p);
+			i = (i+1) % n_workers ; // iterating over workers list
+			
+		}
+		
+		for(Process p: prList) {
+			p.waitFor(10,TimeUnit.SECONDS);
+			InputStream is = p.getInputStream();
+			String result = outputResult(is);
+			String word = result.split(" ")[0];
+			Integer count = Integer.parseInt(result.split(" ")[1]);
+			results.put(word, count);
+			System.out.println(word + ": " + count.toString());
+		}
+		return results;
+		
+	}
+	
+	public static String outputResult(InputStream inputStream) throws IOException {
+		ArrayList<String> output = new ArrayList<String>();
+		BufferedReader br = null;
+		try {
+			br = new BufferedReader(new InputStreamReader(inputStream));
+			String line = null;
+			while ((line = br.readLine()) != null) {
+				output.add(line);
+			}
+		} finally {
+			br.close();
+		}
+		return output.get(0);
+	}
+	
+	public static void createOuputFile(HashMap<String, Integer> results) throws IOException, InterruptedException {
+		
+		String outputs_dir = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Output";
+		
+		Process p = new ProcessBuilder("mkdir", outputs_dir).start();
+		p.waitFor(10,TimeUnit.SECONDS);
+		
+		FileWriter writer;
+		writer = new FileWriter(outputs_dir + "outputs.txt");
+			for(Entry<String, Integer> e: results.entrySet()) {
+				String word = e.getKey();
+				String count = e.getValue().toString();
+				writer.write(word + " " + count + "\n");
+			}
+
+		writer.close();
+		
 		
 	}
 	

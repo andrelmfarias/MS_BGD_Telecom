@@ -1,0 +1,4 @@
+Car 3
+River 2
+Deer 2
+Beer 2
