@@ -123,7 +123,7 @@ public class DeployMain {
 		// List to keep track of process
 		ArrayList<Process> prList = new ArrayList<Process>(); 
 		
-		String slave_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/SLAVE.jar";
+		String slave_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/SLAVE.jar";
 	
 		for(String machine: machines) {	
 			ProcessBuilder pb = new ProcessBuilder("scp", slave_path,"amacedo@"
