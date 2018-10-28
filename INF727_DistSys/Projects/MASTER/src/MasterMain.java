@@ -37,7 +37,10 @@ public class MasterMain {
 		HashMap<String,String> um_to_worker = new HashMap<String,String>();
 		
 		launchMap(workers_to_Sfiles, key_words_to_um, um_to_worker);
-		launchShuffle(um_to_worker, key_words_to_um, workers);
+		
+		HashMap<String,String> sm_file_to_key = launchShuffle(um_to_worker, key_words_to_um, workers);
+		
+		launchReduce(workers, sm_file_to_key);
 
 	}
 
@@ -231,9 +234,11 @@ public class MasterMain {
 		return "UM" + txt_number + ".txt";
 	}
 	
-	public static void launchShuffle(HashMap<String,String> um_to_worker, 
+	public static HashMap<String,String> launchShuffle(HashMap<String,String> um_to_worker, 
 									HashMap<String,ArrayList<String>> key_word_to_um, 
 									ArrayList<String> workers) throws IOException, InterruptedException {
+		
+		HashMap<String,String> sm_file_to_key = new HashMap<String,String>(); 
 		
 		int i = 0; // integer used to iterate over machines
 		int n_workers = workers.size();
@@ -245,7 +250,6 @@ public class MasterMain {
 			String target_worker = workers.get(i);
 			for(String um_file: um_list) {
 				String origin_worker = um_to_worker.get(um_file);
-				// System.out.println("scp" + " " + "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" + um_file +	".txt" + " " + "amacedo@" + target_worker + ":/tmp/amacedo/maps");
 				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" 
 						+ um_file, "amacedo@" + target_worker + ":/tmp/amacedo/maps");
 				Process p = pb.start();
@@ -270,10 +274,10 @@ public class MasterMain {
 			String um_list_str = "";
 			String worker = workers.get(i);
 			String sm_file = "/tmp/amacedo/maps/SM" + Integer.toString(smNum) + ".txt";
+			sm_file_to_key.put(sm_file, key);
 			for(String um_file: um_list) {
 				um_list_str += "/tmp/amacedo/maps/" + um_file + " ";
 			}
-			System.out.println("ssh" + " " + "amacedo@" + worker + " " + "java" + " " + "-jar" + " " + "/tmp/amacedo/SLAVE.jar" + " " + "1" + " " + key + " " + sm_file + " " + um_list_str);
 			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java", "-jar", 
 					"/tmp/amacedo/SLAVE.jar","1",key,sm_file,um_list_str);
 			Process p = pb.start();
@@ -285,7 +289,33 @@ public class MasterMain {
 		for(Process p: prList2) {
 			p.waitFor(10,TimeUnit.SECONDS);
 		}
+		System.out.println("\nSM file to key-word dictionary:");
+		System.out.println(sm_file_to_key);
+		return sm_file_to_key;
 					
-	}	
+	}
+	
+	public static void launchReduce(ArrayList<String> workers, HashMap<String,String> sm_file_to_key) throws IOException, InterruptedException {
+		
+		int i = 0; // reinitiate iteration over workers
+		int n_workers = workers.size();
+		ArrayList<Process> prList = new ArrayList<Process>();
+		for(int smNum = 0; smNum < sm_file_to_key.keySet().size(); smNum++) {
+			String sm_file = "/tmp/amacedo/maps/SM" + Integer.toString(smNum) + ".txt";
+			String rm_file = "/tmp/amacedo/reduces/RM" + Integer.toString(smNum) + ".txt";
+			String worker = workers.get(i);
+			String key = sm_file_to_key.get(sm_file);
+			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java", "-jar", 
+					"/tmp/amacedo/SLAVE.jar","2",key,sm_file,rm_file);
+			Process p = pb.start();
+			prList.add(p);
+			i = (i+1) % n_workers ; // iterating over workers list
+		}
+		// Wait for every copy process to end in order to launch shuffle mode in SLAVE
+		for(Process p: prList) {
+			p.waitFor(10,TimeUnit.SECONDS);
+		}
+		
+	}
 	
 }
