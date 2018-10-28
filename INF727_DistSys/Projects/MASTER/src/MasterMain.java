@@ -23,11 +23,11 @@ public class MasterMain {
 		
 		// create list of files
 		ArrayList<String> files = new ArrayList<String>();
-		for(int i = 0; i < 3; i++) {
+		for(int i = 0; i < n_workers; i++) {
 			files.add("S"+i+".txt");
 		}
 		
-		HashMap<String,ArrayList<String>> workers_to_Sfiles =  machineFilesDict(workers,files);
+		HashMap<String,String> workers_to_Sfiles =  machineFilesDict(workers,files);
 		
 		copySFiles(workers_to_Sfiles);
 		
@@ -125,41 +125,30 @@ public class MasterMain {
 		System.out.println("mkdir process finalized");
 	}
 	
-	public static HashMap<String,ArrayList<String>> machineFilesDict(ArrayList<String> machines, ArrayList<String> files){
+	public static HashMap<String,String> machineFilesDict(ArrayList<String> machines, ArrayList<String> files){
 		
-		HashMap<String,ArrayList<String>> dict = new HashMap<String,ArrayList<String>>();
+		HashMap<String,String> dict = new HashMap<String,String>();
 		
 		int i = 0;	// tracks the machine index
 		for(String file: files) {
 			String machine = machines.get(i);
-			if(!dict.containsKey(machine)) {
-				ArrayList<String> machine_files = new ArrayList<String>();
-				machine_files.add(file);
-				dict.put(machine, machine_files);
-			}else {
-				ArrayList<String> machine_files = dict.get(machine);
-				machine_files.add(file);
-				dict.replace(machine, machine_files);
-			}
-			i = (i+1) % machines.size();
+			dict.put(machine, file);
+			i = i+1;
 		}
 		return dict;
 	}
 
-	public static void copySFiles(HashMap<String,ArrayList<String>> dict) throws IOException, InterruptedException {
+	public static void copySFiles(HashMap<String,String> dict) throws IOException, InterruptedException {
 		
 		String files_repo = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Files/";
 		// List to keep track of process
 		ArrayList<Process> prList = new ArrayList<Process>();
-		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {
+		for(Entry<String,String> e: dict.entrySet()) {
 			String machine = e.getKey();
-			ArrayList<String> machine_files = e.getValue();
-			for(String file: machine_files) {
-				ProcessBuilder pb = new ProcessBuilder("scp", files_repo+file,"amacedo@"
-						+machine+":/tmp/amacedo/splits");
-				Process p = pb.start();
-				prList.add(p);	
-			}
+			String file = e.getValue();
+			ProcessBuilder pb = new ProcessBuilder("scp", files_repo+file,"amacedo@"+machine+":/tmp/amacedo/splits");
+			Process p = pb.start();
+			prList.add(p);		
 		}
 		
 		for(Process p: prList) {
@@ -168,7 +157,7 @@ public class MasterMain {
 		System.out.println("copyFiles process finalized");
 	}	
 	
-	public static void launchMap(HashMap<String,ArrayList<String>> worker_to_Sfiles,
+	public static void launchMap(HashMap<String,String> worker_to_Sfiles,
 								HashMap<String,ArrayList<String>> key_words_to_um,
 								HashMap<String,String> um_to_worker) throws InterruptedException, IOException {
 		
@@ -177,16 +166,14 @@ public class MasterMain {
 		
 		String files_dir = "/tmp/amacedo/splits/";
 		
-		for(Entry<String,ArrayList<String>> e: worker_to_Sfiles.entrySet()) {
+		for(Entry<String,String> e: worker_to_Sfiles.entrySet()) {
 			String machine = e.getKey();
-			ArrayList<String> machine_files = e.getValue();
-			for(String infile: machine_files) {
-				ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"java","-jar",
+			String infile = e.getValue();
+			ProcessBuilder pb = new ProcessBuilder("ssh","amacedo@"+machine,"java","-jar",
 						                              "/tmp/amacedo/SLAVE.jar","0",files_dir+infile);
-				Process p = pb.start();
-				String um_file = getUmName(infile);
-				um_file_to_process.put(um_file,p);
-			}
+			Process p = pb.start();
+			String um_file = getUmName(infile);
+			um_file_to_process.put(um_file,p);
 		}
 		
 		for(Entry<String, Process> e: um_file_to_process.entrySet()) {
@@ -203,12 +190,10 @@ public class MasterMain {
 		System.out.println("\nKey_words to UM file dictionary:");
 		System.out.println(key_words_to_um);
 		
-		for(Entry<String,ArrayList<String>> e: worker_to_Sfiles.entrySet()) {
+		for(Entry<String,String> e: worker_to_Sfiles.entrySet()) {
 			String machine = e.getKey();
-			ArrayList<String> machine_files = e.getValue();
-			for(String infile: machine_files) {
-				um_to_worker.put(getUmName(infile), machine);
-			}
+			String infile = e.getValue();
+			um_to_worker.put(getUmName(infile), machine);
 		}
 		System.out.println("\nUM file to machine dictionary:");
 		System.out.println(um_to_worker);
@@ -260,8 +245,9 @@ public class MasterMain {
 			String target_worker = workers.get(i);
 			for(String um_file: um_list) {
 				String origin_worker = um_to_worker.get(um_file);
-				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/" // TODO :/tmp/amacedo/maps isn't  ????
-						+ um_file +	".txt", "amacedo@" + target_worker + ":/tmp/amacedo/maps");
+				// System.out.println("scp" + " " + "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" + um_file +	".txt" + " " + "amacedo@" + target_worker + ":/tmp/amacedo/maps");
+				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" 
+						+ um_file, "amacedo@" + target_worker + ":/tmp/amacedo/maps");
 				Process p = pb.start();
 				prList.add(p);
 			}
