@@ -13,7 +13,7 @@ public class MasterMain {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
 		int n_workers = 3;
-		String machines_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		String machines_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Machines_TP.txt";
 		
 		ArrayList<String> machines = readMachines(machines_path);
 
@@ -148,7 +148,7 @@ public class MasterMain {
 
 	public static void copySFiles(HashMap<String,ArrayList<String>> dict) throws IOException, InterruptedException {
 		
-		String files_repo = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Files/";
+		String files_repo = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Files/";
 		// List to keep track of process
 		ArrayList<Process> prList = new ArrayList<Process>();
 		for(Entry<String,ArrayList<String>> e: dict.entrySet()) {

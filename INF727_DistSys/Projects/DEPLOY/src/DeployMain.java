@@ -12,7 +12,7 @@ public class DeployMain {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Machines_TP.txt";
+		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Machines_TP.txt";
 		int n_workers = 3;
 		
 		ArrayList<String> machines = readMachines(path);

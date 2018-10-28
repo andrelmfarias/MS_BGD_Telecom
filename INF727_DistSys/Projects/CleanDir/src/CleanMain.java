@@ -12,7 +12,7 @@ public class CleanMain {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727/Projects/Machines_TP.txt";
+		String path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Machines_TP.txt";
 		
 		ArrayList<String> machines = readMachines(path);
 		ArrayList<String> workers = workingMachines(machines);
