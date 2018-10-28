@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/.metadata/.plugins/org.eclipse.jdt.core
+3087902465.index
+1917250788.index
+3432427482.index
+749174627.index
+1271342938.index
+417171029.index
+1318811131.index
+3569978510.index
+384658884.index
+1844173892.index
+558823348.index
+2727754357.index
+2935125032.index
+3388598249.index
+2055598051.index
+2006501588.index
+175120261.index
+4044715751.index
+1408230787.index
+1547105658.index
+3366605816.index
+3703194086.index
+1794703015.index
