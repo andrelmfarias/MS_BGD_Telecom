@@ -1,4 +1,1 @@
-Car 3
-River 2
-Deer 2
-Beer 2
+auhaus 0

@@ -13,8 +13,17 @@ public class MasterMain {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
+		long startTime = System.currentTimeMillis();
+		
 		int n_workers = 3;
+		
 		String machines_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Machines_TP.txt";
+		
+		String input_file_repo = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Files/Input_file/";
+		
+		String input_file_path = input_file_repo + "input.txt"; //args[0];
+		
+		createSplits(input_file_path, n_workers);
 		
 		ArrayList<String> machines = readMachines(machines_path);
 
@@ -48,6 +57,10 @@ public class MasterMain {
 		HashMap<String,Integer> results = resultsFromReduce(workers, rm_to_key);
 		
 		createOuputFile(results);
+		
+		long endTime = System.currentTimeMillis();	
+		long totalTime = endTime - startTime;
+		System.out.format("\nThe time of execution is %dms",totalTime);
 
 	}
 
@@ -216,7 +229,9 @@ public class MasterMain {
 			br = new BufferedReader(new InputStreamReader(inputStream));
 			String line = null;
 			while ((line = br.readLine()) != null) {
-				output.add(line);
+				if(!line.equals("")) {
+					output.add(line);
+				}
 			}
 		} finally {
 			br.close();
@@ -257,10 +272,12 @@ public class MasterMain {
 			String target_worker = workers.get(i);
 			for(String um_file: um_list) {
 				String origin_worker = um_to_worker.get(um_file);
-				ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" 
-						+ um_file, "amacedo@" + target_worker + ":/tmp/amacedo/maps");
-				Process p = pb.start();
-				prList.add(p);
+				if(!origin_worker.equals(target_worker)) {
+					ProcessBuilder pb = new ProcessBuilder("scp", "amacedo@" + origin_worker + ":/tmp/amacedo/maps/" 
+							+ um_file, "amacedo@" + target_worker + ":/tmp/amacedo/maps").inheritIO();
+					Process p = pb.start();
+					prList.add(p);	
+				}
 			}
 			i = (i+1) % n_workers ; // iterating over workers list
 		}
@@ -271,7 +288,6 @@ public class MasterMain {
 		}
 		
 		// Shuffle mode in each SLAVE
-		
 		i = 0; // reinitiate iteration over workers
 		int smNum = 0; // counter of SM files
 		ArrayList<Process> prList2 = new ArrayList<Process>();
@@ -285,13 +301,14 @@ public class MasterMain {
 			for(String um_file: um_list) {
 				um_list_str += "/tmp/amacedo/maps/" + um_file + " ";
 			}
-			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java", "-jar", 
-					"/tmp/amacedo/SLAVE.jar","1",key,sm_file,um_list_str);
+			ProcessBuilder pb = new ProcessBuilder("ssh", "amacedo@" + worker, "java"+" "+ "-jar"+" "+ 
+					"/tmp/amacedo/SLAVE.jar"+" "+"1"+" "+"\""+key +"\""+" "+sm_file+" "+um_list_str);
 			Process p = pb.start();
 			prList2.add(p);
 			i = (i+1) % n_workers ; // iterating over workers list
 			smNum++ ;// iterate over number of SM file
 		}
+		System.out.println("\n");
 		// Wait for every copy process to end in order to launch shuffle mode in SLAVE
 		for(Process p: prList2) {
 			p.waitFor(10,TimeUnit.SECONDS);
@@ -349,10 +366,12 @@ public class MasterMain {
 			p.waitFor(10,TimeUnit.SECONDS);
 			InputStream is = p.getInputStream();
 			String result = outputResult(is);
-			String word = result.split(" ")[0];
-			Integer count = Integer.parseInt(result.split(" ")[1]);
-			results.put(word, count);
-			System.out.println(word + ": " + count.toString());
+			if(result != null) {
+				String word = result.split(" ")[0];
+				Integer count = Integer.parseInt(result.split(" ")[1]);
+				results.put(word, count);
+				System.out.println(word + ": " + count.toString());
+			}
 		}
 		return results;
 		
@@ -370,7 +389,12 @@ public class MasterMain {
 		} finally {
 			br.close();
 		}
-		return output.get(0);
+		if(!output.isEmpty()) {
+			return output.get(0);
+		}
+		else {
+			return null;
+		}
 	}
 	
 	public static void createOuputFile(HashMap<String, Integer> results) throws IOException, InterruptedException {
@@ -389,7 +413,31 @@ public class MasterMain {
 			}
 
 		writer.close();
+	}
+	
+	public static void createSplits(String input_file, int n_workers) throws IOException {
 		
+		ArrayList<FileWriter> writers = new ArrayList<FileWriter>();
+		for(Integer i=0; i<n_workers; i++) {
+			String split_path = "/Users/andre.farias/Desktop/MSBigData_GitHub/INF727_DistSys/Projects/Files/S" + i.toString() + ".txt";
+			FileWriter writer = new FileWriter(split_path);
+			writers.add(writer);
+		}
+		
+		FileReader in = new FileReader(input_file);
+		BufferedReader br = new BufferedReader(in);
+		int j = 0 ; // counter to add to write each line in a different split file
+		String line = null;
+		while((line = br.readLine()) != null) {
+			writers.get(j).write(line + " ");
+			j = (j+1) % n_workers;
+		}
+		in.close();
+		br.close();
+		
+		for(FileWriter writer: writers) {
+			writer.close();
+		}
 		
 	}
 	
