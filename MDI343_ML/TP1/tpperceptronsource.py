@@ -82,7 +82,7 @@ def rand_bi_gauss(n1=100, n2=100, mu1=[1, 1], mu2=[-1, -1], sigmas1=[0.1, 0.1],
 
 
 def rand_clown(n1=100, n2=100, sigma1=1, sigma2=2):
-    """Create samples and labels form a **clown** dataset.
+    """Create samples and labels from a **clown** dataset.
 
     Parameters
     ----------
@@ -169,6 +169,7 @@ def plot_2d(X, y, w=None, step=50, alpha_choice=1):
     labels = np.unique(y)
     k = np.unique(y).shape[0]
     color_blind_list = sns.color_palette("colorblind", k)
+    color_blind_list[1] = (1, 0, 0)
     sns.set_palette(color_blind_list)
     for i, label in enumerate(y):
         label_num = np.where(labels == label)[0][0]
@@ -369,10 +370,10 @@ def plot_cout3d(x, y, loss_fun, w):
         return loss_fun(x, y, ww).mean()
 
     datarange = np.array([[w[:, 1].min(), w[:, 2].min()],
-                         [w[:, 1].max(), w[:, 2].max()]])
+                          [w[:, 1].max(), w[:, 2].max()]])
     frontiere_3d(_inter, np.array(datarange))
     plt.plot(w[:, 1], w[:, 2], np.array([_inter(w[i, 1:]) for i in
-             range(w.shape[0])]), 'k-', linewidth=3)
+                                         range(w.shape[0])]), 'k-', linewidth=3)
 
 ###############################################################################
 #                Algorithms and functions
@@ -446,7 +447,7 @@ def poly2(x):
 def poly3(x):
     """ creates features for third order interactions """
     if x.ndim == 1:
-            x = x[None, :]
+        x = x[None, :]
     nb, d = x.shape
     res = poly2(x)
     for i in range(0, d):
