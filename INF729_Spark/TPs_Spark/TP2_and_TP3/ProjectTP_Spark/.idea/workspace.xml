@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trainer.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Trainer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="265">
+              <caret line="49" column="147" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="147" />
               <folding>
                 <element signature="e#26#59#0" expanded="true" />
               </folding>
@@ -31,14 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preprocessor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala">
+      <file leaf-file-name="build_and_submit.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build_and_submit.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="111" column="78" selection-start-line="111" selection-start-column="75" selection-end-line="111" selection-end-column="78" />
-              <folding>
-                <element signature="e#26#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -55,6 +52,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala" />
+        <option value="$PROJECT_DIR$/build_and_submit.sh" />
       </list>
     </option>
   </component>
@@ -76,8 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,7 +111,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,11 +289,12 @@
       <workItem from="1540978087056" duration="807000" />
       <workItem from="1541075287803" duration="7280000" />
       <workItem from="1541191250186" duration="2676000" />
+      <workItem from="1542018057332" duration="1353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14988000" />
+    <option name="totallyTimeSpent" value="16341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -321,7 +320,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Learn" order="2" />
@@ -385,6 +384,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#26#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="78" selection-start-line="111" selection-start-column="75" selection-end-line="111" selection-end-column="78" />
+          <folding>
+            <element signature="e#26#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="27" />
           <folding>
@@ -445,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
+        <state relative-caret-position="1665">
           <caret line="111" column="78" selection-start-line="111" selection-start-column="75" selection-end-line="111" selection-end-column="78" />
           <folding>
             <element signature="e#26#59#0" expanded="true" />
@@ -455,11 +474,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="265">
+          <caret line="49" column="147" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="147" />
           <folding>
             <element signature="e#26#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_and_submit.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

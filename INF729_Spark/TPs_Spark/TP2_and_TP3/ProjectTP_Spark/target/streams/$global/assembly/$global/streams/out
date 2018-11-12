@@ -1,7 +1,7 @@
 [0m[[0mdebug[0m] [0mCalculate mappings...[0m
 [0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
 [0m[[0minfo[0m] [0mMerging files...[0m
-[0m[[0minfo[0m] [0mSHA-1: 98a2ea45c4b6d66b125e77f41584d90133ee933b[0m
+[0m[[0minfo[0m] [0mSHA-1: 0f7b64b6f5cca848b6451b97fb1714fc2976f84f[0m
 [0m[[0minfo[0m] [0mPackaging /Users/andre.farias/Desktop/MSBigData_GitHub/INF729_Spark/TPs_Spark/TP2_and_TP3/ProjectTP_Spark/target/scala-2.11/TP_ParisTech_2017_2018-assembly-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	com/sparkProject/Preprocessor$$anonfun$udfCountry$1$1.class[0m

@@ -49,8 +49,6 @@ object Trainer {
 
     val df = spark.read.load("/Users/andre.farias/Desktop/MSBigData_GitHub/INF729_Spark/TPs_Spark/TP2_and_TP3/ProjectTP_Spark/prepared_trainingset")
 
-    println("hello world ! from Trainer")
-
     // 2.a. 1st stage: Building tokenizer
 
     val tokenizer = new RegexTokenizer()
@@ -169,6 +167,8 @@ object Trainer {
     val f1_score = evaluator.evaluate(df_WithPredictions)
 
     println("f1-score on test set: " + f1_score)
+
+    // 5.n Display predictions
 
     df_WithPredictions.groupBy("final_status", "predictions").count.show()
 

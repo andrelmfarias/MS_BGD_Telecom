@@ -18,7 +18,7 @@ sbt assembly || { echo 'Build failed' ; exit 1; }
 
 echo -e "\n --- spark-submit --- \n"
 
-path_to_spark="$HOME/spark-2.3.1-bin-hadoop2.7"
+
 master_ip=""
 
 if [ -n "$2" ]; then master_ip="--master spark://$2:7077"; fi
